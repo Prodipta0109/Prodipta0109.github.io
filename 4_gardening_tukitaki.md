@@ -15,4 +15,4 @@ I led the team and built the database architecture, the backend APIs, and the fr
 
 Python, Django, HTML, CSS, JavaScript, SQLite3
 
-*2023 · University of Dhaka*
+_2023 · University of Dhaka_

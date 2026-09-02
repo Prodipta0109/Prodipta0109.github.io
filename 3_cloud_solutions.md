@@ -19,4 +19,4 @@ I built a replacement application that reads and displays the stream directly, i
 
 C++, C#, Python, JavaScript, WebRTC, libdatachannel, MediaMTX, named pipes, Docker, AWS, Azure
 
-*January 2024 – February 2025 · Samsung R&D Institute Bangladesh*
+_January 2024 – February 2025 · Samsung R&D Institute Bangladesh_

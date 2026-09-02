@@ -15,4 +15,4 @@ I contributed to the UX and UI design and the backend implementation, and prepar
 
 Java, Firebase, Android Studio SDK, automated testing
 
-*2022 · University of Dhaka*
+_2022 · University of Dhaka_

@@ -20,4 +20,4 @@ The 5D Viewer renders live volumetric ultrasound data of a beating heart. That c
 
 C#, C++, HLSL, DirectX
 
-*April 2026 – Present · Samsung R&D Institute Bangladesh*
+_April 2026 – Present · Samsung R&D Institute Bangladesh_

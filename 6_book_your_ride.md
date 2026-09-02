@@ -15,4 +15,4 @@ I built the backend architecture in synchronization with the database and the fr
 
 Java, Firebase, Android Studio SDK
 
-*2021 · University of Dhaka*
+_2021 · University of Dhaka_

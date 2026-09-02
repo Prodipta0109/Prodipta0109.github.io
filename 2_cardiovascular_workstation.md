@@ -23,4 +23,4 @@ I worked across the full stack on this one, which is unusual for a medical devic
 
 React, WPF, .NET, IIS Windows Server
 
-*March 2025 – March 2026 · Samsung R&D Institute Bangladesh*
+_March 2025 – March 2026 · Samsung R&D Institute Bangladesh_
