@@ -9,14 +9,15 @@ nav_order: 3
 
 ## Senior Software Engineer
 
-**Samsung R&D Institute Bangladesh** · *January 2024 – Present*
+**Samsung R&D Institute Bangladesh** · _January 2024 – Present_
 
 Three consecutive projects on the [Samsung Medison](https://samsungmedison.com/) ultrasound imaging line, moving from streaming infrastructure through full-stack application development to real-time rendering.
 
 ---
 
 ### Cardiac TEE Rendering & Optimization
-*April 2026 – Present*
+
+_April 2026 – Present_
 
 - Leading the optimization of the UI design for the 5D Viewer
 - Implementing the core interaction layer for manipulating rendered 3D objects
@@ -26,7 +27,8 @@ Three consecutive projects on the [Samsung Medison](https://samsungmedison.com/)
 ---
 
 ### Cardiovascular Workstation
-*March 2025 – March 2026*
+
+_March 2025 – March 2026_
 
 - Implemented the server UI — both the Windows software running on the ultrasound machine and the companion website
 - Engineered the backend design and architected the database management layer
@@ -38,7 +40,8 @@ Three consecutive projects on the [Samsung Medison](https://samsungmedison.com/)
 ---
 
 ### Cloud Solutions — Medison
-*January 2024 – February 2025*
+
+_January 2024 – February 2025_
 
 - Contributed to the R&D team on Samsung Medison's Cloud Solutions project
 - Served as streaming technology specialist, publishing generated ultrasound streams to the web in real time
