@@ -2,33 +2,31 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Senior Software Engineer at <a href='https://research.samsung.com/srbd'>Samsung R&D Institute Bangladesh</a> · Dhaka, Bangladesh
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: false
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Dhaka, Bangladesh</p>
+    <p>prodiptasenamartya1971@gmail.com</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: true
+social: true
 
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
-
-latest_posts:
   enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  scrollable: true
+  limit: 5
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I build real-time rendering systems by day and study how learning systems break by night.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+At [Samsung R&D Institute Bangladesh](https://research.samsung.com/srbd) I work on the [Samsung Medison](https://samsungmedison.com/) ultrasound line, currently leading rendering and UI optimization for the Cardiac TEE 5D Viewer using C++, C#, HLSL and DirectX. Before that I architected a cardiovascular workstation end to end, and built the real-time streaming layer that publishes ultrasound video to the web.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My research sits on the security side of machine learning. I'm currently investigating **backdoor attacks on LLM reasoning** with Dr. Honghui Xu at Kennesaw State University, and I've studied **how attacks and defenses transfer between federated and split learning** with Dr. Md Tariqul Islam at the University of Maryland, Baltimore County. Earlier work with Dr. Shaily Kabir at the [LUCID Lab](https://www.lucidresearch.org/), University of Nottingham, produced a first-author paper at **FUZZ-IEEE 2024** on constructing interval type-2 fuzzy sets.
+
+I graduated with a B.Sc. in Computer Science & Engineering from the **University of Dhaka** in 2023.
+
+Outside work, I am usually planning a trip — often before finishing the previous one.
