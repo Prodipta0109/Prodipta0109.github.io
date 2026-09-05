@@ -59,8 +59,11 @@ announcements:
   background: rgba(128,128,128,0.06);
   border-radius: 10px;
   padding: 22px 26px;
-  margin-top: 45px;
+  margin-top: 10px;
   box-shadow: 0 4px 14px rgba(0,0,0,0.15);
+}
+h2:has(+ .news) {
+  margin-top: 40px;
 }
 </style>
 
