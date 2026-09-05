@@ -10,7 +10,10 @@ nav_order: 2
 <style>
 .research-card {
   position: relative;
-  display: block;
+  display: flex !important;
+  flex-direction: row !important;
+  gap: 20px;
+  align-items: flex-start;
   border-left: 4px solid #5BA8A0;
   background: rgba(128,128,128,0.06);
   border-radius: 10px;
@@ -22,6 +25,22 @@ nav_order: 2
 .research-card:hover {
   transform: translateY(-2px);
   box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+}
+.research-card img.thumb {
+  width: 90px !important;
+  height: 90px !important;
+  min-width: 90px !important;
+  max-width: 90px !important;
+  object-fit: contain !important;
+  background: #fff;
+  border-radius: 8px;
+  padding: 6px;
+  flex-shrink: 0;
+  display: block;
+}
+.research-card .card-body {
+  min-width: 0;
+  flex: 1;
 }
 .research-card h3 {
   margin-bottom: 6px;
@@ -44,6 +63,14 @@ nav_order: 2
   content: "";
   position: absolute;
   inset: 0;
+}
+@media (max-width: 600px) {
+  .research-card img.thumb {
+    width: 56px !important;
+    height: 56px !important;
+    min-width: 56px !important;
+    max-width: 56px !important;
+  }
 }
 </style>
 
