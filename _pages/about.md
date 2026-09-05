@@ -10,7 +10,7 @@ profile:
   image_circular: false
   more_info: >
     <p>Dhaka, Bangladesh</p>
-    <p>prodiptasenamartya1971@gmail.com</p>
+    <p>prodiptasen-2018325324@cs.du.ac.bd</p>
 
 selected_papers: true
 social: true
