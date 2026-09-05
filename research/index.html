@@ -7,7 +7,10 @@
   </script> </head> <body class="fixed-top-nav "> <header> <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation"> <div class="container"> <a class="navbar-brand title font-weight-lighter" href="/"> <span class="font-weight-bold">Prodipta</span> Sen Amartya </a> <button class="navbar-toggler collapsed navbar-toggler-main" type="button" data-nav-toggle="navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse navbar-collapse-main" id="navbarNav"> <ul class="navbar-nav navbar-menu-list flex-nowrap"> <li class="nav-item "> <a class="nav-link" href="/">about </a> </li> <li class="nav-item "> <a class="nav-link" href="/blog/">blog </a> </li> <li class="nav-item "> <a class="nav-link" href="/publications/">publications </a> </li> <li class="nav-item active"> <a class="nav-link" href="/research/">research <span class="sr-only">(current)</span> </a> </li> <li class="nav-item "> <a class="nav-link" href="/experience/">experience </a> </li> <li class="nav-item "> <a class="nav-link" href="/projects/">projects </a> </li> <li class="nav-item "> <a class="nav-link" href="/repositories/">repositories </a> </li> <li class="nav-item "> <a class="nav-link" href="/cv/">CV </a> </li> <li class="nav-item "> <a class="nav-link" href="/teaching/">teaching </a> </li> <li class="nav-item"> <button id="search-toggle" type="button" title="Search" aria-label="Open search"> <span class="nav-link">ctrl k <i class="fa-solid fa-magnifying-glass"></i></span> </button> </li> <li class="toggle-container"> <button id="light-toggle" type="button" title="Change theme" aria-label="Change color theme"> <i class="fa-half-sun-moon" id="light-toggle-system"></i> <i class="fa-solid fa-moon" id="light-toggle-dark"></i> <i class="fa-solid fa-sun" id="light-toggle-light"></i> </button> </li> </ul> </div> </div> </nav> <progress id="progress" value="0"> <div class="progress-container"> <span class="progress-bar"></span> </div> </progress> </header> <div class="container mt-5" role="main"> <div class="post"> <header class="post-header"> <h1 class="post-title">research</h1> <p class="post-description">Security of learning systems, explainable fuzzy inference, and medical imaging.</p> </header> <article> <style>
 .research-card {
   position: relative;
-  display: block;
+  display: flex !important;
+  flex-direction: row !important;
+  gap: 20px;
+  align-items: flex-start;
   border-left: 4px solid #5BA8A0;
   background: rgba(128,128,128,0.06);
   border-radius: 10px;
@@ -19,6 +22,22 @@
 .research-card:hover {
   transform: translateY(-2px);
   box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+}
+.research-card img.thumb {
+  width: 90px !important;
+  height: 90px !important;
+  min-width: 90px !important;
+  max-width: 90px !important;
+  object-fit: contain !important;
+  background: #fff;
+  border-radius: 8px;
+  padding: 6px;
+  flex-shrink: 0;
+  display: block;
+}
+.research-card .card-body {
+  min-width: 0;
+  flex: 1;
 }
 .research-card h3 {
   margin-bottom: 6px;
@@ -41,6 +60,14 @@
   content: "";
   position: absolute;
   inset: 0;
+}
+@media (max-width: 600px) {
+  .research-card img.thumb {
+    width: 56px !important;
+    height: 56px !important;
+    min-width: 56px !important;
+    max-width: 56px !important;
+  }
 }
 </style> <div class="research-card"> <p><img class="thumb" src="/assets/img/research/KSU_logo.png" alt="Kennesaw State University logo"></p> <div class="card-body"> <h3 id="backdoor-attacks-in-large-language-model-reasoning"><a href="/research/llm-backdoor/">Backdoor Attacks in Large Language Model Reasoning</a></h3> <div class="meta">Kennesaw State University, USA · Supervisor: Dr. Honghui Xu · July 2026 – Present</div> <p class="summary">Investigating how the reasoning process of large language models can be compromised, combining chain-of-thought analysis with trigger-injection techniques.</p> </div> </div> <div class="research-card"> <p><img class="thumb" src="/assets/img/research/UMBC_logo.png" alt="University of Maryland, Baltimore County logo"></p> <div class="card-body"> <h3 id="security-analysis-in-federated-and-split-learning"><a href="/research/fl-sl-security/">Security Analysis in Federated and Split Learning</a></h3> <div class="meta">University of Maryland, Baltimore County, USA · Supervisor: Dr. Md Tariqul Islam · July 2025 – February 2026</div> <p class="summary">Studying the transferability of attacks and defenses between federated learning and split learning across different attack surfaces.</p> </div> </div> <div class="research-card"> <p><img class="thumb" src="/assets/img/research/UoN_logo.png" alt="University of Nottingham logo"></p> <div class="card-body"> <h3 id="sensitivity-analysis-with-fuzzy-sets"><a href="/research/fuzzy-sensitivity/">Sensitivity Analysis with Fuzzy Sets</a></h3> <div class="meta">LUCID Lab, University of Nottingham, UK · Supervisor: Dr. Shaily Kabir · 2024 – Present</div> <p class="summary">Identifying which input variables and fuzzy rules determine the robustness and reliability of a fuzzy inference system.</p> </div> </div> <div class="research-card"> <p><img class="thumb" src="/assets/img/research/Samsung_logo.png" alt="Samsung R&amp;D Institute Bangladesh logo"></p> <div class="card-body"> <h3 id="ultrasound-technology-for-3d-imaging"><a href="/research/ultrasound-3d-imaging/">Ultrasound Technology for 3D Imaging</a></h3> <div class="meta">Samsung R&amp;D Institute Bangladesh · January 2024 – Present</div> <p class="summary">Improving 3D ultrasound image capture quality and developing techniques to detect and classify breast-tumour-affected lesions.</p> </div> </div> <div class="research-card"> <p><img class="thumb" src="/assets/img/research/DU_logo.png" alt="University of Dhaka logo"></p> <div class="card-body"> <h3 id="interval-type-2-fuzzy-sets-behaviour-and-performance"><a href="/research/interval-type2-fuzzy/">Interval Type-2 Fuzzy Sets: Behaviour and Performance</a></h3> <div class="meta">University of Dhaka · March 2023 – January 2024</div> <p class="summary">Designed the Interval Creation Approach (ICA), a method for constructing interval type-2 fuzzy sets, leading to a first-author paper at FUZZ-IEEE 2024.</p> </div> </div> </article> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2026 Prodipta Sen Amartya. </div> </footer> <script>
   window.alFolio = {
