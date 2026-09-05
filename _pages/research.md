@@ -93,7 +93,7 @@ nav_order: 2
 </div>
 
 <div class="research-card" markdown="1">
-<img class="thumb" src="/assets/img/research/UoN_logo.png" alt="University of Nottingham logo">
+<img class="thumb" src="/assets/img/research/UoN.png" alt="University of Nottingham logo">
 <div class="card-body" markdown="1">
 ### [Sensitivity Analysis with Fuzzy Sets](/research/fuzzy-sensitivity/)
 <div class="meta">LUCID Lab, University of Nottingham, UK · Supervisor: Dr. Shaily Kabir · 2024 – Present</div>
