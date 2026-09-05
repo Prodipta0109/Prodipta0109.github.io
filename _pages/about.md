@@ -38,17 +38,20 @@ announcements:
   100% { transform: rotate(0deg); }
 }
 .intro-box {
-  border: 1px solid rgba(128,128,128,0.3);
-  border-radius: 8px;
-  padding: 20px 24px;
+  border-left: 4px solid #5BA8A0;
+  background: rgba(128,128,128,0.06);
+  border-radius: 10px;
+  padding: 22px 26px;
   margin-top: 10px;
+  margin-left: 28px;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.15);
 }
 .intro-box ul li {
   margin-bottom: 14px;
 }
 </style>
 
-<div class="intro-box">
+<div class="intro-box" markdown="1">
 
 ## <span class="wave">👋</span> Hello there, I'm Prodipta!
 
