@@ -10,7 +10,7 @@ profile:
   image_circular: false
   more_info: >
     <p>Dhaka, Bangladesh</p>
-    <p id="contact-email">prodiptasen-<wbr>2018325324@cs.du.ac.bd</p>
+    <p id="contact-email" style="scroll-margin-top: 90px;">prodiptasen-<wbr>2018325324@cs.du.ac.bd</p>
 
 selected_papers: true
 social: true
