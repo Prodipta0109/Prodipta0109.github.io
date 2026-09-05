@@ -1,14 +1,9 @@
 github_users:
-  - torvalds
-  - alshedivat
-
+  - Prodipta0109
 repo_description_lines_max: 2
-
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - Prodipta0109/Prodipta0109.github.io
+  - karmakersagar/Bus-Tickets
+  - shakifCSEDU/Find-Your-Doctor
+  - dsPartho/Gardening-Tukitaki
+  - Prodipta0109/Basic-Split-Learning-Architecture-for-SafeSplit
