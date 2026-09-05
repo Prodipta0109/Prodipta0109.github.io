@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2026-04-01
+date: 2026-08-19
 inline: true
 related_posts: false
 ---
 
-Started leading rendering and UI optimization for the Cardiac TEE 5D Viewer at Samsung Medison.
+Completed Generative AI & Deep Learning training (BUET × Samsung R&D Institute Bangladesh), awarded for top performance in SRBD's Basic AI Exam. <a href="/assets/img/buet_certificate.jpg" data-zoomable><img src="/assets/img/buet_certificate.jpg" alt="Certificate" width="60"></a>
