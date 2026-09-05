@@ -27,14 +27,14 @@ nav_order: 3
   box-shadow: 0 6px 18px rgba(0,0,0,0.25);
 }
 .experience-card img.thumb {
-  width: 90px !important;
-  height: 90px !important;
-  min-width: 90px !important;
-  max-width: 90px !important;
+  width: 200px !important;
+  height: 160px !important;
+  min-width: 200px !important;
+  max-width: 200px !important;
   object-fit: contain !important;
   background: #fff;
   border-radius: 8px;
-  padding: 6px;
+  padding: 8px;
   flex-shrink: 0;
   display: block;
 }
@@ -66,10 +66,10 @@ nav_order: 3
 }
 @media (max-width: 600px) {
   .experience-card img.thumb {
-    width: 56px !important;
-    height: 56px !important;
-    min-width: 56px !important;
-    max-width: 56px !important;
+    width: 130px !important;
+    height: 105px !important;
+    min-width: 130px !important;
+    max-width: 130px !important;
   }
 }
 </style>
