@@ -5,7 +5,7 @@ permalink: /
 subtitle: Senior Software Engineer at <a href='https://research.samsung.com/srbd'>Samsung R&D Institute Bangladesh</a> · Dhaka, Bangladesh
 
 profile:
-  align: right
+  align: left
   image: prof_pic.jpg
   image_circular: false
   more_info: >
@@ -37,11 +37,34 @@ announcements:
   60% { transform: rotate(0deg); }
   100% { transform: rotate(0deg); }
 }
+#intro-box-wrap {
+  display: block !important;
+  margin-left: 32px !important;
+  overflow: hidden;
+}
+.intro-box {
+  border: none;
+  border-left: 4px solid #5BA8A0;
+  background: rgba(128,128,128,0.06);
+  border-radius: 10px;
+  padding: 22px 26px !important;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.15);
+  overflow: hidden;
+}
+.intro-box ul li {
+  margin-bottom: 14px;
+}
 </style>
+
+<div id="intro-box-wrap">
+<div class="intro-box" markdown="1">
 
 ## <span class="wave">👋</span> Hello there, I'm Prodipta!
 
-- 💼 I'm a Senior Software Engineer at [*Samsung R&D Institute Bangladesh*](https://research.samsung.com/srbd), working on **real-time rendering** for medical ultrasound at [*Samsung Medison*](https://samsungmedison.com/).
+- 💼 I'm a Senior Software Engineer at [*Samsung R&D Institute Bangladesh*](https://research.samsung.com/srbd), currently leading **UI architecture design** and **real-time rendering** for medical ultrasound at [*Samsung Medison*](https://samsungmedison.com/).
 - 🎓 I hold a **B.Sc. in Computer Science & Engineering** from *University of Dhaka*, graduating in 2023.
-- 🔬 My research focuses on **AI for Security** — exploring vulnerabilities in ML-based systems (federated/split learning & LLM reasoning) and designing defenses to make them more robust.
+- 🔬 My research focuses on **AI Security** — exploring vulnerabilities in ML-based systems (federated/split learning & LLM reasoning) and designing defenses to make them more robust.
 - 🤖 I'm also curious about the foundations of **Generative AI and Deep Learning**, and the risks tied to their real-world adoption.
+
+</div>
+</div>
