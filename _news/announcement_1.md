@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Completed Generative AI & Deep Learning training (BUET × Samsung R&D Institute Bangladesh), awarded for top performance in SRBD's Basic AI Exam. [View certificate](/assets/img/buet_certificate.jpg){:target="_blank"}
+Completed Generative AI & Deep Learning training (BUET × Samsung R&D Institute Bangladesh), awarded for top performance in SRBD's Basic AI Exam. <a href="/assets/img/certificate.jpg" target="_blank">View certificate</a>
