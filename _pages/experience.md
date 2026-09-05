@@ -65,11 +65,14 @@ nav_order: 3
   inset: 0;
 }
 @media (max-width: 600px) {
+  .experience-card {
+    flex-direction: column !important;
+  }
   .experience-card img.thumb {
-    width: 130px !important;
-    height: 105px !important;
-    min-width: 130px !important;
-    max-width: 130px !important;
+    width: 160px !important;
+    height: 128px !important;
+    min-width: 160px !important;
+    max-width: 160px !important;
   }
 }
 </style>
