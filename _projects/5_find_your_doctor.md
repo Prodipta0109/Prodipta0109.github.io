@@ -2,7 +2,7 @@
 layout: page
 title: Find Your Doctor
 description: An Android app for finding and booking doctor appointments.
-img: assets/img/find_doctor.jpg
+img: assets/img/find_doctor.png
 importance: 5
 category: academic
 ---

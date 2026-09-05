@@ -2,7 +2,7 @@
 layout: page
 title: Book Your Ride
 description: Online bus ticket booking with digital tickets and live schedules.
-img: assets/img/bus_booking.jpg
+img: assets/img/bus_booking.png
 importance: 6
 category: academic
 ---

@@ -2,7 +2,7 @@
 layout: page
 title: Gardening Tukitaki
 description: A blog and e-commerce platform for gardeners and agriculturists.
-img: assets/img/gardening.jpg
+img: assets/img/gardening.png
 importance: 4
 category: academic
 ---
