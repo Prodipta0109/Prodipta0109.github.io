@@ -42,6 +42,11 @@ announcements:
   display: table;
   clear: both;
 }
+@media (max-width: 1024px) {
+  #intro-box-wrap {
+    margin-left: 0 !important;
+  }
+}
 .intro-box {
   border: none;
   border-left: 4px solid #5BA8A0;
