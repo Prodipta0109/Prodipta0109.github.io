@@ -37,20 +37,26 @@ announcements:
   60% { transform: rotate(0deg); }
   100% { transform: rotate(0deg); }
 }
+#intro-box-wrap {
+  display: block !important;
+  margin-left: 32px !important;
+  overflow: hidden;
+}
 .intro-box {
+  border: none;
   border-left: 4px solid #5BA8A0;
   background: rgba(128,128,128,0.06);
   border-radius: 10px;
-  padding: 22px 26px;
-  margin-top: 10px;
-  margin-left: 28px;
+  padding: 22px 26px !important;
   box-shadow: 0 4px 14px rgba(0,0,0,0.15);
+  overflow: hidden;
 }
 .intro-box ul li {
   margin-bottom: 14px;
 }
 </style>
 
+<div id="intro-box-wrap">
 <div class="intro-box" markdown="1">
 
 ## <span class="wave">👋</span> Hello there, I'm Prodipta!
@@ -60,4 +66,5 @@ announcements:
 - 🔬 My research focuses on **AI Security** — exploring vulnerabilities in ML-based systems (federated/split learning & LLM reasoning) and designing defenses to make them more robust.
 - 🤖 I'm also curious about the foundations of **Generative AI and Deep Learning**, and the risks tied to their real-world adoption.
 
+</div>
 </div>
