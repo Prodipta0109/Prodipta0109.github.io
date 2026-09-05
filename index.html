@@ -23,7 +23,11 @@
 #intro-box-wrap {
   display: block !important;
   margin-left: 32px !important;
-  overflow: hidden;
+}
+#intro-box-wrap::after {
+  content: "";
+  display: table;
+  clear: both;
 }
 .intro-box {
   border: none;
@@ -32,7 +36,6 @@
   border-radius: 10px;
   padding: 22px 26px !important;
   box-shadow: 0 4px 14px rgba(0,0,0,0.15);
-  overflow: hidden;
 }
 .intro-box ul li {
   margin-bottom: 14px;
