@@ -54,6 +54,14 @@ announcements:
 .intro-box ul li {
   margin-bottom: 14px;
 }
+.news {
+  border-left: 4px solid #D4A62A;
+  background: rgba(128,128,128,0.06);
+  border-radius: 10px;
+  padding: 22px 26px;
+  margin-top: 20px;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.15);
+}
 </style>
 
 <div id="intro-box-wrap">
