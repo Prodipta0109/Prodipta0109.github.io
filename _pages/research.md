@@ -48,31 +48,46 @@ nav_order: 2
 </style>
 
 <div class="research-card" markdown="1">
+<img class="thumb" src="/assets/img/research/KSU_logo.png" alt="Kennesaw State University logo">
+<div class="card-body" markdown="1">
 ### [Backdoor Attacks in Large Language Model Reasoning](/research/llm-backdoor/)
 <div class="meta">Kennesaw State University, USA · Supervisor: Dr. Honghui Xu · July 2026 – Present</div>
 <p class="summary">Investigating how the reasoning process of large language models can be compromised, combining chain-of-thought analysis with trigger-injection techniques.</p>
 </div>
+</div>
 
 <div class="research-card" markdown="1">
+<img class="thumb" src="/assets/img/research/UMBC_logo.png" alt="University of Maryland, Baltimore County logo">
+<div class="card-body" markdown="1">
 ### [Security Analysis in Federated and Split Learning](/research/fl-sl-security/)
 <div class="meta">University of Maryland, Baltimore County, USA · Supervisor: Dr. Md Tariqul Islam · July 2025 – February 2026</div>
 <p class="summary">Studying the transferability of attacks and defenses between federated learning and split learning across different attack surfaces.</p>
 </div>
+</div>
 
 <div class="research-card" markdown="1">
+<img class="thumb" src="/assets/img/research/UoN_logo.png" alt="University of Nottingham logo">
+<div class="card-body" markdown="1">
 ### [Sensitivity Analysis with Fuzzy Sets](/research/fuzzy-sensitivity/)
 <div class="meta">LUCID Lab, University of Nottingham, UK · Supervisor: Dr. Shaily Kabir · 2024 – Present</div>
 <p class="summary">Identifying which input variables and fuzzy rules determine the robustness and reliability of a fuzzy inference system.</p>
 </div>
+</div>
 
 <div class="research-card" markdown="1">
+<img class="thumb" src="/assets/img/research/Samsung_logo.png" alt="Samsung R&D Institute Bangladesh logo">
+<div class="card-body" markdown="1">
 ### [Ultrasound Technology for 3D Imaging](/research/ultrasound-3d-imaging/)
 <div class="meta">Samsung R&D Institute Bangladesh · January 2024 – Present</div>
 <p class="summary">Improving 3D ultrasound image capture quality and developing techniques to detect and classify breast-tumour-affected lesions.</p>
 </div>
+</div>
 
 <div class="research-card" markdown="1">
+<img class="thumb" src="/assets/img/research/DU_logo.png" alt="University of Dhaka logo">
+<div class="card-body" markdown="1">
 ### [Interval Type-2 Fuzzy Sets: Behaviour and Performance](/research/interval-type2-fuzzy/)
 <div class="meta">University of Dhaka · March 2023 – January 2024</div>
 <p class="summary">Designed the Interval Creation Approach (ICA), a method for constructing interval type-2 fuzzy sets, leading to a first-author paper at FUZZ-IEEE 2024.</p>
+</div>
 </div>
