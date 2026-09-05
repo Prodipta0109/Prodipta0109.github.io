@@ -7,41 +7,96 @@ nav: true
 nav_order: 3
 ---
 
-## Senior Software Engineer
+<style>
+.experience-card {
+  position: relative;
+  display: flex !important;
+  flex-direction: row !important;
+  gap: 20px;
+  align-items: flex-start;
+  border-left: 4px solid #5BA8A0;
+  background: rgba(128,128,128,0.06);
+  border-radius: 10px;
+  padding: 22px 26px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.15);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.experience-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+}
+.experience-card img.thumb {
+  width: 90px !important;
+  height: 90px !important;
+  min-width: 90px !important;
+  max-width: 90px !important;
+  object-fit: contain !important;
+  background: #fff;
+  border-radius: 8px;
+  padding: 6px;
+  flex-shrink: 0;
+  display: block;
+}
+.experience-card .card-body {
+  min-width: 0;
+  flex: 1;
+}
+.experience-card h3 {
+  margin-bottom: 6px;
+}
+.experience-card h3 a {
+  color: #5BA8A0;
+  text-decoration: none;
+}
+.experience-card .meta {
+  font-size: 0.85em;
+  opacity: 0.75;
+  margin-bottom: 10px;
+}
+.experience-card .summary {
+  opacity: 0.9;
+  margin-bottom: 0;
+}
+/* makes the whole card clickable even though only the title text is a real link */
+.experience-card h3 a::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+}
+@media (max-width: 600px) {
+  .experience-card img.thumb {
+    width: 56px !important;
+    height: 56px !important;
+    min-width: 56px !important;
+    max-width: 56px !important;
+  }
+}
+</style>
 
-**Samsung R&D Institute Bangladesh** · *January 2024 – Present*
+<div class="experience-card" markdown="1">
+<img class="thumb" src="/assets/img/experience/5Dviewer_logo.png" alt="5D Viewer">
+<div class="card-body" markdown="1">
+### [Cardiac TEE Rendering & Optimization](/experience/cardiac-tee/)
+<div class="meta">Samsung R&D Institute Bangladesh · April 2026 – Present</div>
+<p class="summary">Leading UI optimization and the interaction layer for a 5D Viewer rendering live volumetric cardiac ultrasound data.</p>
+</div>
+</div>
 
-Three consecutive projects on the [Samsung Medison](https://samsungmedison.com/) ultrasound imaging line, moving from streaming infrastructure through full-stack application development to real-time rendering.
+<div class="experience-card" markdown="1">
+<img class="thumb" src="/assets/img/experience/HelloMom_logo.png" alt="HelloMom">
+<div class="card-body" markdown="1">
+### [Cardiovascular Workstation](/experience/cardiovascular-workstation/)
+<div class="meta">Samsung R&D Institute Bangladesh · March 2025 – March 2026</div>
+<p class="summary">Full-stack work on a Windows and web workstation for cardiovascular ultrasound — UI, backend, database, and on-premises deployment.</p>
+</div>
+</div>
 
----
-
-### Cardiac TEE Rendering & Optimization
-*April 2026 – Present*
-
-- Leading the optimization of the UI design for the 5D Viewer
-- Implementing the core interaction layer for manipulating rendered 3D objects
-
-**Stack:** C#, C++, HLSL, DirectX
-
----
-
-### Cardiovascular Workstation
-*March 2025 – March 2026*
-
-- Implemented the server UI — both the Windows software running on the ultrasound machine and the companion website
-- Engineered the backend design and architected the database management layer
-- Deployed and configured the complete system in an on-premises environment
-- Mentored interns on the team
-
-**Stack:** React, WPF, .NET, IIS Windows Server, networking
-
----
-
-### Cloud Solutions — Medison
-*January 2024 – February 2025*
-
-- Contributed to the R&D team on Samsung Medison's Cloud Solutions project
-- Served as streaming technology specialist, publishing generated ultrasound streams to the web in real time
-- Removed the project's dependency on ffmpeg by building a custom application using double buffering with DirectShow and Media Foundation
-
-**Stack:** C++, C#, Python, JavaScript, WebRTC, libdatachannel, MediaMTX, Docker, AWS, Azure, named pipes
+<div class="experience-card" markdown="1">
+<img class="thumb" src="/assets/img/experience/Sonosync_logo.png" alt="SonoSync">
+<div class="card-body" markdown="1">
+### [Cloud Solutions — Medison](/experience/cloud-solutions/)
+<div class="meta">Samsung R&D Institute Bangladesh · January 2024 – February 2025</div>
+<p class="summary">Real-time ultrasound streaming to the web, removing an ffmpeg dependency by building a custom double-buffered streaming pipeline.</p>
+</div>
+</div>
