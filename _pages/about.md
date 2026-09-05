@@ -3,7 +3,6 @@ layout: about
 title: about
 permalink: /
 subtitle: Senior Software Engineer at <a href='https://research.samsung.com/srbd'>Samsung R&D Institute Bangladesh</a> · Dhaka, Bangladesh
-
 profile:
   align: left
   image: prof_pic.jpg
@@ -11,16 +10,13 @@ profile:
   more_info: >
     <p>Dhaka, Bangladesh</p>
     <p id="contact-email" style="scroll-margin-top: 90px;">prodiptasen-<wbr>2018325324@cs.du.ac.bd</p>
-
 selected_papers: true
 social: true
-
 announcements:
   enabled: true
   scrollable: true
   limit: 5
 ---
-
 <style>
 .wave {
   display: inline-block;
@@ -40,7 +36,11 @@ announcements:
 #intro-box-wrap {
   display: block !important;
   margin-left: 32px !important;
-  overflow: hidden;
+}
+#intro-box-wrap::after {
+  content: "";
+  display: table;
+  clear: both;
 }
 .intro-box {
   border: none;
@@ -49,7 +49,6 @@ announcements:
   border-radius: 10px;
   padding: 22px 26px !important;
   box-shadow: 0 4px 14px rgba(0,0,0,0.15);
-  overflow: hidden;
 }
 .intro-box ul li {
   margin-bottom: 14px;
@@ -77,16 +76,12 @@ h2:has(+ .publications) {
   margin-top: 40px;
 }
 </style>
-
 <div id="intro-box-wrap">
 <div class="intro-box" markdown="1">
-
 ## <span class="wave">👋</span> Hello there, I'm Prodipta!
-
 - 💼 I'm a Senior Software Engineer at [*Samsung R&D Institute Bangladesh*](https://research.samsung.com/srbd), currently leading **UI architecture design** and **real-time rendering** for medical ultrasound at [*Samsung Medison*](https://samsungmedison.com/).
 - 🎓 I hold a **B.Sc. in Computer Science & Engineering** from *University of Dhaka*, graduating in 2023.
 - 🔬 My research focuses on **AI Security** — exploring vulnerabilities in ML-based systems (federated/split learning & LLM reasoning) and designing defenses to make them more robust.
 - 🤖 I'm also curious about the foundations of **Generative AI and Deep Learning**, and the risks tied to their real-world adoption.
-
 </div>
 </div>
