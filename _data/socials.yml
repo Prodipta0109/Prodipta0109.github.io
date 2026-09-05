@@ -2,8 +2,8 @@
 # the socials will be displayed in the order they are defined here
 # for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
 email: prodiptasenamartya1971@gmail.com # your email address
-linkedin: prodipta-sen-amartya # your LinkedIn username
-kaggle: prodiptasenamartya # your Kaggle username
-instagram: pro_sen_amartya # your Instagram username
-facebook: prodipta.senamartya.7 # your Facebook username
+linkedin_username: prodipta-sen-amartya # your LinkedIn username
+kaggle_id: prodiptasenamartya # your Kaggle username
+instagram_id: pro_sen_amartya # your Instagram username
+facebook_id: prodipta.senamartya.7 # your Facebook username
 scholar_userid: bnBpAMkAAAAJ # your Google Scholar ID
