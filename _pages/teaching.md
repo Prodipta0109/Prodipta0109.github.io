@@ -42,7 +42,7 @@ We study:
 - How to design attacks that expose loopholes when integrating these models into real-world applications or systems
 - How to make them more secure while keeping them efficient for real-world deployment, without sacrificing performance
 
-Our base paper: [[2506.10943] Self-Adapting Language Models](https://arxiv.org/abs/2506.10943)
+Our base paper: [Self-Adapting Language Models](https://arxiv.org/abs/2506.10943)
 </div>
 
 <div class="teach-item" markdown="1">
