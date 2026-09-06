@@ -62,8 +62,18 @@ category: academic
 
 ## Overview
 
-- Developed a database to manage the library of an institute
-- Designed the database based on normalization and created views to execute its smooth conduction
+**Library Management System** is a normalized relational database designed to support the day-to-day management and operations of an institute's library.
+
+- **Database Design** — Structured the schema using normalization principles to eliminate redundancy and maintain data integrity across library records.
+- **Views for Streamlined Operations** — Created database views to support smooth, efficient execution of common library management tasks.
+
+**My Contributions:** I designed the database following normalization principles and created the views needed for its smooth operation.
+
+<div class="links-list" markdown="1">
+### 🔗 Important Links
+
+- [Project Report](https://drive.google.com/drive/folders/1l7a0yFPlR-ca43s-mtg9qwDV1SdAF9qb)
+</div>
 
 ## Skills
 

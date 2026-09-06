@@ -62,8 +62,13 @@ category: academic
 
 ## Overview
 
-- Developed a blog platform for gardeners, agriculturists, farmers and nature admirers to share knowledge about gardening, also featuring e-commerce capabilities
-- Designed and implemented the database architecture and the backend APIs with a user-friendly frontend UI
+**Gardening Tukitaki** is a full-stack web platform built to bring together gardeners, agriculturists, farmers, and nature enthusiasts around a shared space for knowledge exchange and commerce.
+
+- **Community & Knowledge-Sharing** — A blogging platform where users can publish and discuss insights on gardening, cultivation techniques, and broader agricultural practices.
+- **E-Commerce Integration** — A marketplace layer enabling the buying and selling of seeds and other agricultural products directly within the platform.
+- **Fertilizer Calculator** — A research-informed calculator, grounded in prior agricultural studies, designed to help farmers and rooftop gardening enthusiasts determine appropriate fertilizer and input quantities for their crops.
+
+**My Contributions:** I designed and implemented the database architecture and backend APIs powering these features, while also leading the development of a clean, user-friendly frontend interface.
 
 <div class="links-list" markdown="1">
 ### 🔗 Important Links

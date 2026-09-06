@@ -62,14 +62,20 @@ category: academic
 
 ## Overview
 
-- Developed an Android app to facilitate users in finding and scheduling appointments with their desired doctors, maintaining dual profiles for both medical professionals and patients
-- Contributed to the UX and UI design with backend implementation
-- Prepared and analyzed necessary planning and documentation
+**Find Your Doctor** is a native Android application designed to simplify how patients discover and book appointments with medical professionals, while giving doctors a dedicated space to manage their practice.
+
+- **Dual-Role Architecture** — The app maintains distinct, purpose-built profiles for patients and doctors, each tailored to its respective workflow: patients search and book, while doctors manage availability and appointments.
+- **Appointment Discovery & Scheduling** — A streamlined search and booking system that lets patients find doctors matching their needs and reserve time slots directly through the app.
+- **End-to-End Development Involvement** — Contributed across the stack, from UX/UI design to backend implementation, ensuring a cohesive experience from interface to data layer.
+- **Requirements & Documentation** — Led the planning process, including functional and non-functional requirement analysis, alongside preparing detailed project documentation.
+
+**My Contributions:** I worked on both the UI/UX design and backend implementation, and was responsible for preparing and analyzing the project's planning and documentation.
 
 <div class="links-list" markdown="1">
 ### 🔗 Important Links
 
 - [Project Code](https://github.com/shakifCSEDU/Find-Your-Doctor)
+- [Project Documentation](https://drive.google.com/drive/folders/1qo4qnsrqozy0rVVVkU-jQtXkp-I-pZTx?usp=sharing)
 </div>
 
 ## Skills

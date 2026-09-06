@@ -62,9 +62,13 @@ category: academic
 
 ## Overview
 
-- Engineered an online bus ticket booking system to book bus tickets online and see the schedules of the buses according to destination and date
-- Digitalized the system by providing users with online copies of their tickets
-- Built up the back-end architecture in synchronization with the database and frontend UI
+**Book Your Ride** is an online bus ticket booking system that digitizes the process of searching, scheduling, and purchasing intercity bus tickets.
+
+- **Ticket Booking & Scheduling** — Enables users to book bus tickets online and browse available schedules filtered by destination and travel date.
+- **Digital Ticketing** — Replaces physical tickets with digital copies, allowing users to access and present their tickets directly from the app.
+- **Backend Architecture** — Built the backend in close coordination with the database and frontend UI, ensuring smooth data flow across the system.
+
+**My Contributions:** I built the backend architecture, synchronizing it with both the database and the frontend UI to deliver a seamless booking experience.
 
 <div class="links-list" markdown="1">
 ### 🔗 Important Links
