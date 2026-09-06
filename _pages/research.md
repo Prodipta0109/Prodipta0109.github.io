@@ -84,11 +84,11 @@ nav_order: 2
 </div>
 
 <div class="research-card" markdown="1">
-<img class="thumb" src="/assets/img/research/UMBC_logo.png" alt="University of Maryland, Baltimore County logo">
+<img class="thumb" src="/assets/img/research/Samsung_logo.png" alt="Samsung R&D Institute Bangladesh logo">
 <div class="card-body" markdown="1">
-### [Security Analysis in Federated and Split Learning](/research/fl-sl-security/)
-<div class="meta">University of Maryland, Baltimore County, USA · Supervisor: Dr. Md Tariqul Islam · July 2025 – February 2026</div>
-<p class="summary">Studying the transferability of attacks and defenses between federated learning and split learning across different attack surfaces.</p>
+### [Ultrasound Technology for 3D Imaging](/research/ultrasound-3d-imaging/)
+<div class="meta">Samsung R&D Institute Bangladesh · January 2024 – Present</div>
+<p class="summary">Improving 3D ultrasound image capture quality and developing techniques to detect and classify breast-tumour-affected lesions.</p>
 </div>
 </div>
 
@@ -98,15 +98,6 @@ nav_order: 2
 ### [Sensitivity Analysis with Fuzzy Sets](/research/fuzzy-sensitivity/)
 <div class="meta">LUCID Lab, University of Nottingham, UK · Supervisor: Dr. Shaily Kabir · 2024 – Present</div>
 <p class="summary">Identifying which input variables and fuzzy rules determine the robustness and reliability of a fuzzy inference system.</p>
-</div>
-</div>
-
-<div class="research-card" markdown="1">
-<img class="thumb" src="/assets/img/research/Samsung_logo.png" alt="Samsung R&D Institute Bangladesh logo">
-<div class="card-body" markdown="1">
-### [Ultrasound Technology for 3D Imaging](/research/ultrasound-3d-imaging/)
-<div class="meta">Samsung R&D Institute Bangladesh · January 2024 – Present</div>
-<p class="summary">Improving 3D ultrasound image capture quality and developing techniques to detect and classify breast-tumour-affected lesions.</p>
 </div>
 </div>
 
