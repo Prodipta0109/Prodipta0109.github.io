@@ -36,6 +36,7 @@ nav_order: 6
 <div class="meta" markdown="1">With [Ahmed Adnan](https://scholar.google.com/citations?user=bZzBXsYAAAAJ&hl=en) (Graduate Research Assistant, Pennsylvania State University) and 3 students from [East West University](https://fse.ewubd.edu/computer-science-engineering), Dhaka, Bangladesh · Late August 2026 – Present</div>
 
 We study:
+
 - The internal architecture of self-adapting large language models
 - The applicability of reinforcement learning in self-adaptation
 - Catastrophic forgetting in LLMs
