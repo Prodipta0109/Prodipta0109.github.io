@@ -33,7 +33,7 @@ nav_order: 6
 
 <div class="teach-item" markdown="1">
 ### Self-Adapting LLM Vulnerability Study Group
-<div class="meta" markdown="1">With [Ahmed Adnan](https://scholar.google.com/citations?user=bZzBXsYAAAAJ&hl=en) (Graduate Research Assistant, Pennsylvania State University) and 3 students from [East West University](https://fse.ewubd.edu/computer-science-engineering), Dhaka, Bangladesh · Late August 2026 – Present</div>
+<div class="meta">With <a href="https://scholar.google.com/citations?user=bZzBXsYAAAAJ&hl=en">Ahmed Adnan</a> (Graduate Research Assistant, Pennsylvania State University) and 3 students from <a href="https://fse.ewubd.edu/computer-science-engineering">East West University</a>, Dhaka, Bangladesh · Late August 2026 – Present</div>
 
 We study:
 
