@@ -86,9 +86,9 @@ nav_order: 2
 <div class="research-card" markdown="1">
 <img class="thumb" src="/assets/img/research/Samsung_logo.png" alt="Samsung R&D Institute Bangladesh logo">
 <div class="card-body" markdown="1">
-### [Ultrasound Technology for 3D Imaging](/research/ultrasound-3d-imaging/)
-<div class="meta">Samsung R&D Institute Bangladesh · January 2024 – Present</div>
-<p class="summary">Improving 3D ultrasound image capture quality and developing techniques to detect and classify breast-tumour-affected lesions.</p>
+### [Improving security of the system integrated in ultrasound devices](/research/ultrasound-3d-imaging/)
+<div class="meta">Samsung R&D Institute Bangladesh · August 2026 – Present</div>
+<p class="summary">Developing a contract-based method to automatically scope security re-verification to only the modules an update could affect, instead of retesting the entire ultrasound software stack.</p>
 </div>
 </div>
 
@@ -96,8 +96,8 @@ nav_order: 2
 <img class="thumb" src="/assets/img/research/UoN.png" alt="University of Nottingham logo">
 <div class="card-body" markdown="1">
 ### [Sensitivity Analysis with Fuzzy Sets](/research/fuzzy-sensitivity/)
-<div class="meta">LUCID Lab, University of Nottingham, UK · Supervisor: Dr. Shaily Kabir · 2024 – Present</div>
-<p class="summary">Identifying which input variables and fuzzy rules determine the robustness and reliability of a fuzzy inference system.</p>
+<div class="meta">LUCID Lab, University of Nottingham, UK · Supervisor: <a href="https://scholar.google.com/citations?user=9pixW4wAAAAJ&hl=en">Dr. Shaily Kabir</a> · October 2024 – March 2025</div>
+<p class="summary">Identifying which input variables and fuzzy rules determine the robustness and reliability of a fuzzy inference system as noise in the dataset of a system increases.</p>
 </div>
 </div>
 
@@ -106,6 +106,6 @@ nav_order: 2
 <div class="card-body" markdown="1">
 ### [Interval Type-2 Fuzzy Sets: Behaviour and Performance](/research/interval-type2-fuzzy/)
 <div class="meta">University of Dhaka · March 2023 – January 2024</div>
-<p class="summary">Designed the Interval Creation Approach (ICA), a method for constructing interval type-2 fuzzy sets, leading to a first-author paper at FUZZ-IEEE 2024.</p>
+<p class="summary">Designed the Interval Creation Approach (ICA), a method for constructing interval type-2 fuzzy sets from type-1 fuzzy set, leading to a first-author paper at FUZZ-IEEE 2024, as a part of IEEE WCCI 2024.</p>
 </div>
 </div>
