@@ -2,43 +2,39 @@
 layout: page
 permalink: /repositories/
 title: repositories
-description: A few of my public repositories, including collaborative projects.
+description: Personal and collaborative work on GitHub.
 nav: true
 nav_order: 4
 ---
 
 <style>
-.repo-section-title {
-  font-size: 1.3em;
-  margin: 36px 0 4px;
+.repo-heading {
+  font-size: 1.1em;
+  font-weight: 500;
+  margin: 30px 0 2px;
 }
-.repo-section-sub {
-  font-size: 0.88em;
+.repo-subheading {
+  font-size: 0.86em;
   opacity: 0.7;
-  margin-bottom: 18px;
+  margin-bottom: 14px;
 }
 .repo-grid {
   display: flex;
   flex-wrap: wrap;
-  gap: 18px;
-  justify-content: center;
+  gap: 14px;
 }
 .repo-card {
-  border-left: 4px solid #5BA8A0;
-  background: rgba(128,128,128,0.06);
+  border: 0.5px solid rgba(128,128,128,0.35);
   border-radius: 12px;
-  padding: 14px;
-  box-shadow: 0 4px 14px rgba(0,0,0,0.15);
+  padding: 10px;
   max-width: 420px;
   width: 100%;
   display: block;
-  transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
   text-decoration: none !important;
+  transition: border-color 0.18s ease;
 }
 .repo-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 8px 22px rgba(0,0,0,0.28);
-  border-left-color: #D4A62A;
+  border-color: rgba(128,128,128,0.7);
 }
 .repo-card img {
   width: 100%;
@@ -46,32 +42,15 @@ nav_order: 4
   border-radius: 6px;
 }
 .repo-card.user-card {
-  border-left-color: #D4A62A;
   max-width: 560px;
-}
-.repo-card.user-card:hover {
-  border-left-color: #5BA8A0;
-}
-/* fade-in on load */
-.repo-card {
-  animation: repoFadeIn 0.5s ease both;
-}
-.repo-grid .repo-card:nth-child(1) { animation-delay: 0.05s; }
-.repo-grid .repo-card:nth-child(2) { animation-delay: 0.12s; }
-.repo-grid .repo-card:nth-child(3) { animation-delay: 0.19s; }
-.repo-grid .repo-card:nth-child(4) { animation-delay: 0.26s; }
-.repo-grid .repo-card:nth-child(5) { animation-delay: 0.33s; }
-@keyframes repoFadeIn {
-  from { opacity: 0; transform: translateY(12px); }
-  to   { opacity: 1; transform: translateY(0); }
 }
 @media (max-width: 600px) {
   .repo-card, .repo-card.user-card { max-width: 100%; }
 }
 </style>
 
-<div class="repo-section-title">GitHub profile</div>
-<div class="repo-section-sub">An overview of my activity on GitHub.</div>
+<div class="repo-heading">GitHub profile</div>
+<div class="repo-subheading">An overview of my activity on GitHub.</div>
 
 <div class="repo-grid">
   <a class="repo-card user-card" href="https://github.com/Prodipta0109" target="_blank">
@@ -80,8 +59,8 @@ nav_order: 4
   </a>
 </div>
 
-<div class="repo-section-title">Repositories</div>
-<div class="repo-section-sub">Personal and collaborative projects — click any card to open it on GitHub.</div>
+<div class="repo-heading">Own work</div>
+<div class="repo-subheading">Repositories I created and maintain.</div>
 
 <div class="repo-grid">
   <a class="repo-card" href="https://github.com/Prodipta0109/Prodipta0109.github.io" target="_blank">
@@ -90,10 +69,15 @@ nav_order: 4
   </a>
 
   <a class="repo-card" href="https://github.com/Prodipta0109/Basic-Split-Learning-Architecture-for-SafeSplit" target="_blank">
-    <img class="only-dark" src="https://github-stats-extended.vercel.app/api/pin/?username=Prodipta0109&repo=Basic-Split-Learning-Architecture-for-SafeSplit&theme=dark&show_owner=true&description_lines_count=2&v={{ site.time | date: '%s' }}" alt="SafeSplit Split Learning">
-    <img class="only-light" src="https://github-stats-extended.vercel.app/api/pin/?username=Prodipta0109&repo=Basic-Split-Learning-Architecture-for-SafeSplit&theme=default&show_owner=true&description_lines_count=2&v={{ site.time | date: '%s' }}" alt="SafeSplit Split Learning">
+    <img class="only-dark" src="https://github-stats-extended.vercel.app/api/pin/?username=Prodipta0109&repo=Basic-Split-Learning-Architecture-for-SafeSplit&theme=dark&show_owner=true&description_lines_count=2&v={{ site.time | date: '%s' }}" alt="Basic Split Learning Architecture for SafeSplit">
+    <img class="only-light" src="https://github-stats-extended.vercel.app/api/pin/?username=Prodipta0109&repo=Basic-Split-Learning-Architecture-for-SafeSplit&theme=default&show_owner=true&description_lines_count=2&v={{ site.time | date: '%s' }}" alt="Basic Split Learning Architecture for SafeSplit">
   </a>
+</div>
 
+<div class="repo-heading">Collaborative</div>
+<div class="repo-subheading">Team projects I contributed to.</div>
+
+<div class="repo-grid">
   <a class="repo-card" href="https://github.com/dsPartho/Gardening-Tukitaki" target="_blank">
     <img class="only-dark" src="https://github-stats-extended.vercel.app/api/pin/?username=dsPartho&repo=Gardening-Tukitaki&theme=dark&show_owner=true&description_lines_count=2&v={{ site.time | date: '%s' }}" alt="Gardening-Tukitaki">
     <img class="only-light" src="https://github-stats-extended.vercel.app/api/pin/?username=dsPartho&repo=Gardening-Tukitaki&theme=default&show_owner=true&description_lines_count=2&v={{ site.time | date: '%s' }}" alt="Gardening-Tukitaki">
