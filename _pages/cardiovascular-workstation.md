@@ -85,9 +85,9 @@ I worked across the full stack on this project, which is unusual for medical dev
 
 ### Authentication
 
-<div class="callout" markdown="1">
-I designed and implemented the login and sign-up module in full — both backend and frontend — incorporating **Google OAuth 2.0** authentication and building in **single sign-on** so the system can serve other Samsung Medison applications in future, not just this one.
-</div>
+- Designed and implemented the login and sign-up module in full — both backend and frontend
+- Incorporated **Google OAuth 2.0** authentication
+- Built in **single sign-on** so the system can serve other Samsung Medison applications in future, not just this one
 
 ### Team
 
