@@ -86,7 +86,7 @@ nav_order: 2
 <div class="research-card" markdown="1">
 <img class="thumb" src="/assets/img/research/Samsung_logo.png" alt="Samsung R&D Institute Bangladesh logo">
 <div class="card-body" markdown="1">
-### [Improving security of the system integrated in ultrasound devices](/research/ultrasound-3d-imaging/)
+### [Improving security of the system integrated in ultrasound devices](/research/ultrasound-security/)
 <div class="meta">Samsung R&D Institute Bangladesh · August 2026 – Present</div>
 <p class="summary">Developing a contract-based method to automatically scope security re-verification to only the modules an update could affect, instead of retesting the entire ultrasound software stack.</p>
 </div>
