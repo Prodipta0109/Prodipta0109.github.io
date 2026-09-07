@@ -152,4 +152,4 @@ Framing the research question and reviewing related work in cross-component secu
 </div>
 </div>
 
-[← Back to research](/research/) {: .back-link }
+<a class="back-link" href="/research/">← Back to research</a>

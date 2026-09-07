@@ -171,4 +171,4 @@ See [publications](/publications/) for full citation details.
 </div>
 </div>
 
-[← Back to research](/research/) {: .back-link }
+<a class="back-link" href="/research/">← Back to research</a>
