@@ -54,7 +54,7 @@ nav: false
 </style>
 
 <div class="exp-meta" markdown="1">
-**Samsung R&D Institute Bangladesh** · SRBD Medical Solution Group · * 2024 – February 2025*
+**Samsung R&D Institute Bangladesh** · SRBD Medical Solution Group · *March 2024 – February 2025*
 </div>
 
 ## Overview
