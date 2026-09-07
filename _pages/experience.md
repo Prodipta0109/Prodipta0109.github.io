@@ -89,7 +89,7 @@ nav_order: 3
 <div class="experience-card" markdown="1">
 <img class="thumb" src="/assets/img/experience/HelloMom_logo.png" alt="HelloMom">
 <div class="card-body" markdown="1">
-### [Cardiovascular Workstation](/experience/cardiovascular-workstation/)
+### [Cardiovascular Workstation × HelloMom](/experience/cardiovascular-workstation/)
 <div class="meta">Samsung R&D Institute Bangladesh · March 2025 – March 2026</div>
 <p class="summary">Full-stack work on a Windows and web workstation for cardiovascular ultrasound — UI, backend, database, and on-premises deployment.</p>
 </div>
@@ -99,7 +99,7 @@ nav_order: 3
 <img class="thumb" src="/assets/img/experience/Sonosync_logo.png" alt="SonoSync">
 <div class="card-body" markdown="1">
 ### [Cloud Solutions × SonoSync — Samsung Medison](/experience/cloud-solutions/)
-<div class="meta">Samsung R&D Institute Bangladesh · January 2024 – February 2025</div>
+<div class="meta">Samsung R&D Institute Bangladesh · March 2024 – February 2025</div>
 <p class="summary">Real-time ultrasound streaming and remote machine control, built by replacing an ffmpeg dependency with a custom double-buffered pipeline.</p>
 </div>
 </div>
