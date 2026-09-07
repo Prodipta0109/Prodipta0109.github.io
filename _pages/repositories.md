@@ -7,41 +7,31 @@ nav: true
 nav_order: 4
 ---
 
+<style>
+.repo-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+}
+.repo-grid img {
+  max-width: 400px;
+  width: 100%;
+}
+</style>
+
 ## GitHub user
 
-{% if site.data.repositories.github_users %}
-
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for user in site.data.repositories.github_users %}
-    {% include repository/repo_user.liquid username=user %}
-  {% endfor %}
+<div class="repo-grid">
+  <img src="https://github-stats-extended.vercel.app/api?username=Prodipta0109&theme=dark&show_icons=true&hide_border=true&v={{ site.time | date: '%s' }}" alt="Prodipta0109">
 </div>
 
----
+## GitHub repositories
 
-{% if site.repo_trophies.enabled %}
-{% for user in site.data.repositories.github_users %}
-{% if site.data.repositories.github_users.size > 1 %}
-
-  <h4>{{ user }}</h4>
-  {% endif %}
-  <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% include repository/repo_trophies.liquid username=user %}
-  </div>
-
----
-
-{% endfor %}
-{% endif %}
-{% endif %}
-
-{% if site.data.repositories.github_repos %}
-
-## GitHub Repositories
-
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for repo in site.data.repositories.github_repos %}
-    {% include repository/repo.liquid repository=repo %}
-  {% endfor %}
+<div class="repo-grid">
+  <img src="https://github-stats-extended.vercel.app/api/pin/?username=Prodipta0109&repo=Prodipta0109.github.io&theme=dark&show_owner=true&description_lines_count=2&v={{ site.time | date: '%s' }}" alt="Prodipta0109.github.io">
+  <img src="https://github-stats-extended.vercel.app/api/pin/?username=karmakersagar&repo=Bus-Tickets&theme=dark&show_owner=true&description_lines_count=2&v={{ site.time | date: '%s' }}" alt="Bus-Tickets">
+  <img src="https://github-stats-extended.vercel.app/api/pin/?username=shakifCSEDU&repo=Find-Your-Doctor&theme=dark&show_owner=true&description_lines_count=2&v={{ site.time | date: '%s' }}" alt="Find-Your-Doctor">
+  <img src="https://github-stats-extended.vercel.app/api/pin/?username=dsPartho&repo=Gardening-Tukitaki&theme=dark&show_owner=true&description_lines_count=2&v={{ site.time | date: '%s' }}" alt="Gardening-Tukitaki">
+  <img src="https://github-stats-extended.vercel.app/api/pin/?username=Prodipta0109&repo=Basic-Split-Learning-Architecture-for-SafeSplit&theme=dark&show_owner=true&description_lines_count=2&v={{ site.time | date: '%s' }}" alt="SafeSplit Split Learning">
 </div>
-{% endif %}
