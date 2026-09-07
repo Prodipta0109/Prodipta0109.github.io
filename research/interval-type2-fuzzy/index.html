@@ -1,10 +1,95 @@
-<!DOCTYPE html> <html> <head> <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <title> Interval Type-2 Fuzzy Sets: Behaviour and Performance | Prodipta Sen Amartya </title> <meta name="author" content="Prodipta Sen Amartya"> <meta name="description" content="University of Dhaka · March 2023 – January 2024"> <meta name="keywords" content="rendering, directx, ai security, federated learning, split learning, llm reasoning"> <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: https:; font-src 'self' data: https:; media-src 'self' https:; frame-src 'self' https:; connect-src 'self' https:;"> <style>
+<!DOCTYPE html> <html> <head> <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <title> Interval Type-2 Fuzzy Sets: Behaviour and Performance | Prodipta Sen Amartya </title> <meta name="author" content="Prodipta Sen Amartya"> <meta name="description" content="Comparative study of type-1, general type-2, and interval type-2 fuzzy sets, introducing the Interval Creation Approach."> <meta name="keywords" content="rendering, directx, ai security, federated learning, split learning, llm reasoning"> <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: https:; font-src 'self' data: https:; media-src 'self' https:; frame-src 'self' https:; connect-src 'self' https:;"> <style>
   :root {
     --max-content-width: 930px;
   }
 </style> <link rel="stylesheet" href="/assets/css/tailwind.css?v=50c64c15cbb9fd1ce6056fdb8bcb4b62"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.2.0/css/all.min.css" integrity="sha256-MVopmdyC2tYTiJ8wlktf0uh0v4NgT+vNdyVFepi7Q0c=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.5/css/academicons.min.css" integrity="sha256-SzrCOBJbGVFMahewkgjwnApaV2+av1DwMAA+/QGLyZw=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/scholar-icons@1.0.3/css/scholar-icons.css" integrity="sha256-VY3hHVj/hNX3fYG6wtbA6TcKJQl7+FthzGSyIB64klY=" crossorigin="anonymous"> <link defer rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&amp;display=swap"> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css?v=591dab5a4e56573bf4ef7fd332894c99" media="" id="highlight_theme_light"> <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%F0%9F%A7%A0&lt;/text&gt;&lt;/svg&gt;"> <link rel="stylesheet" href="/assets/css/main.css?v=3116ba77db9ee1581d05bb3e86fbf7f1"> <link rel="canonical" href="https://prodipta0109.github.io/research/interval-type2-fuzzy/"> <script src="/assets/js/theme.js?v=5286c3e4c334d0ecb8fc0c40ff4fa7ec"></script> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-native.css?v=5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark"> <script>
     initTheme();
-  </script> </head> <body class="fixed-top-nav "> <header> <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation"> <div class="container"> <a class="navbar-brand title font-weight-lighter" href="/"> <span class="font-weight-bold">Prodipta</span> Sen Amartya </a> <button class="navbar-toggler collapsed navbar-toggler-main" type="button" data-nav-toggle="navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse navbar-collapse-main" id="navbarNav"> <ul class="navbar-nav navbar-menu-list flex-nowrap"> <li class="nav-item "> <a class="nav-link" href="/">about </a> </li> <li class="nav-item "> <a class="nav-link" href="/publications/">publications </a> </li> <li class="nav-item active"> <a class="nav-link" href="/research/">research <span class="sr-only">(current)</span> </a> </li> <li class="nav-item "> <a class="nav-link" href="/experience/">experience </a> </li> <li class="nav-item "> <a class="nav-link" href="/projects/">projects </a> </li> <li class="nav-item "> <a class="nav-link" href="/repositories/">repositories </a> </li> <li class="nav-item "> <a class="nav-link" href="/cv/">CV </a> </li> <li class="nav-item "> <a class="nav-link" href="/teaching/">teaching </a> </li> <li class="nav-item"> <button id="search-toggle" type="button" title="Search" aria-label="Open search"> <span class="nav-link">ctrl k <i class="fa-solid fa-magnifying-glass"></i></span> </button> </li> <li class="toggle-container"> <button id="light-toggle" type="button" title="Change theme" aria-label="Change color theme"> <i class="fa-half-sun-moon" id="light-toggle-system"></i> <i class="fa-solid fa-moon" id="light-toggle-dark"></i> <i class="fa-solid fa-sun" id="light-toggle-light"></i> </button> </li> </ul> </div> </div> </nav> <progress id="progress" value="0"> <div class="progress-container"> <span class="progress-bar"></span> </div> </progress> </header> <div class="container mt-5" role="main"> <div class="post"> <header class="post-header"> <h1 class="post-title">Interval Type-2 Fuzzy Sets: Behaviour and Performance</h1> <p class="post-description">University of Dhaka · March 2023 – January 2024</p> </header> <article> <p><strong>University of Dhaka</strong> · <em>March 2023 – January 2024</em></p> <p>Designed the <strong>Interval Creation Approach (ICA)</strong>, a method for constructing interval type-2 fuzzy sets from a range of type-1 fuzzy set shapes — triangular, trapezoidal, Gaussian, generalized bell-shaped, symmetric and asymmetric. Benchmarked ICA against the Interval Approach, Enhanced Interval Approach, and M2 methods across synthetic and real-world datasets, reducing pre-processing time and overall computational cost.</p> <p>This work led to a first-author paper at FUZZ-IEEE 2024. See <a href="/publications/">publications</a>.</p> <p><em>Tools:</em> Python, Java, C++, MATLAB, PyIT2FLS, Juzzy</p> <p><a href="/research/">← Back to research</a></p> </article> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2026 Prodipta Sen Amartya. </div> </footer> <script>
+  </script> </head> <body class="fixed-top-nav "> <header> <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation"> <div class="container"> <a class="navbar-brand title font-weight-lighter" href="/"> <span class="font-weight-bold">Prodipta</span> Sen Amartya </a> <button class="navbar-toggler collapsed navbar-toggler-main" type="button" data-nav-toggle="navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse navbar-collapse-main" id="navbarNav"> <ul class="navbar-nav navbar-menu-list flex-nowrap"> <li class="nav-item "> <a class="nav-link" href="/">about </a> </li> <li class="nav-item "> <a class="nav-link" href="/publications/">publications </a> </li> <li class="nav-item active"> <a class="nav-link" href="/research/">research <span class="sr-only">(current)</span> </a> </li> <li class="nav-item "> <a class="nav-link" href="/experience/">experience </a> </li> <li class="nav-item "> <a class="nav-link" href="/projects/">projects </a> </li> <li class="nav-item "> <a class="nav-link" href="/repositories/">repositories </a> </li> <li class="nav-item "> <a class="nav-link" href="/cv/">CV </a> </li> <li class="nav-item "> <a class="nav-link" href="/teaching/">teaching </a> </li> <li class="nav-item"> <button id="search-toggle" type="button" title="Search" aria-label="Open search"> <span class="nav-link">ctrl k <i class="fa-solid fa-magnifying-glass"></i></span> </button> </li> <li class="toggle-container"> <button id="light-toggle" type="button" title="Change theme" aria-label="Change color theme"> <i class="fa-half-sun-moon" id="light-toggle-system"></i> <i class="fa-solid fa-moon" id="light-toggle-dark"></i> <i class="fa-solid fa-sun" id="light-toggle-light"></i> </button> </li> </ul> </div> </div> </nav> <progress id="progress" value="0"> <div class="progress-container"> <span class="progress-bar"></span> </div> </progress> </header> <div class="container mt-5" role="main"> <div class="post"> <header class="post-header"> <h1 class="post-title">Interval Type-2 Fuzzy Sets: Behaviour and Performance</h1> <p class="post-description">Comparative study of type-1, general type-2, and interval type-2 fuzzy sets, introducing the Interval Creation Approach.</p> </header> <article> <style>
+.res-hero {
+  border-left: 4px solid #5BA8A0;
+  padding: 10px 18px;
+  margin-bottom: 28px;
+}
+.res-hero .affil {
+  font-size: 0.95em;
+  opacity: 0.8;
+}
+.res-status-badge {
+  display: inline-block;
+  background: rgba(91,168,160,0.16);
+  color: #3F8A82;
+  border: 1px solid rgba(91,168,160,0.4);
+  border-radius: 999px;
+  padding: 4px 14px;
+  font-size: 0.8em;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+.res-section {
+  margin: 32px 0;
+}
+.res-section h2 {
+  font-size: 1.15em;
+  letter-spacing: 0.02em;
+  border-bottom: 1px solid rgba(128,128,128,0.2);
+  padding-bottom: 8px;
+  margin-bottom: 16px;
+}
+.approach-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 14px;
+}
+.approach-card {
+  background: rgba(128,128,128,0.06);
+  border-radius: 12px;
+  padding: 16px 18px;
+  border: 1px solid rgba(128,128,128,0.12);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+.approach-card .step-num {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: rgba(91,168,160,0.2);
+  color: #5BA8A0;
+  font-weight: 700;
+  font-size: 0.85em;
+  margin-bottom: 8px;
+}
+.approach-card p {
+  margin: 0;
+  font-size: 0.95em;
+}
+.tools-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.tool-pill {
+  background: rgba(91,168,160,0.14);
+  border: 1px solid rgba(91,168,160,0.35);
+  color: inherit;
+  border-radius: 999px;
+  padding: 5px 14px;
+  font-size: 0.85em;
+}
+.tool-pill.soft {
+  background: rgba(212,166,42,0.14);
+  border-color: rgba(212,166,42,0.35);
+}
+.back-link {
+  display: inline-block;
+  margin-top: 36px;
+  font-size: 0.9em;
+  opacity: 0.85;
+}
+</style> <div class="res-hero"> <p><strong>University of Dhaka</strong> · <em>March 2023 – January 2024</em></p> <div class="res-status-badge">Published — FUZZ-IEEE 2024</div> </div> <div class="res-section"> <h2 id="overview">Overview</h2> <p>Investigated the comparative efficiency of type-1, general type-2, and interval type-2 fuzzy sets, and designed the <strong>Interval Creation Approach (ICA)</strong> — a methodology for constructing interval type-2 fuzzy sets from a range of type-1 fuzzy set shapes: triangular, trapezoidal, Gaussian, generalized bell-shaped, and both symmetric and asymmetric curves.</p> </div> <div class="res-section"> <h2 id="approach">Approach</h2> <div class="approach-grid"> <div class="approach-card"> <p><span class="step-num">1</span></p> <p><strong>Methodology design</strong></p> <p>Designed the complete ICA methodology to construct interval type-2 fuzzy sets from the full range of type-1 fuzzy set shapes.</p> </div> <div class="approach-card"> <p><span class="step-num">2</span></p> <p><strong>Evaluation planning</strong></p> <p>Built a work-plan to demonstrate ICA’s effectiveness using both synthetic and real-world datasets.</p> </div> <div class="approach-card"> <p><span class="step-num">3</span></p> <p><strong>Benchmarking</strong></p> <p>Performed a detailed comparison of ICA against the Interval Approach (IA), Enhanced Interval Approach (EIA), and M2 methods — the previously established approaches for this conversion.</p> </div> <div class="approach-card"> <p><span class="step-num">4</span></p> <p><strong>Efficiency gains</strong></p> <p>Reduced extra pre-processing time compared to prior methods, improving overall computational cost.</p> </div> </div> </div> <div class="res-section"> <h2 id="outcomes">Outcomes</h2> <ul> <li>First-author paper: <a href="https://ieeexplore.ieee.org/abstract/document/10611950" rel="external nofollow noopener" target="_blank"><em>“An Interval Creation Approach to Construct Interval Type-2 Fuzzy Sets”</em></a>, published at the <strong>2024 IEEE International Conference on Fuzzy Systems (FUZZ-IEEE)</strong>, part of the 2024 IEEE World Congress on Computational Intelligence (WCCI)</li> <li>Presented in the session <em>“Virtual: Foundations of Fuzzy Systems”</em> at FUZZ-IEEE 2024, on June 30, 2024 — <a href="https://drive.google.com/file/d/1vnvHRHiK-qmQXUqii1j24nrIifNj393S/view" rel="external nofollow noopener" target="_blank">presentation slides</a> </li> </ul> <p>See <a href="/publications/">publications</a> for full citation details.</p> </div> <div class="res-section"> <h2 id="skills">Skills</h2> <div class="tools-pills"> <p><span class="tool-pill">Python</span> <span class="tool-pill">Java</span> <span class="tool-pill">C++</span> <span class="tool-pill">MATLAB</span> <span class="tool-pill">PyIT2FLS</span> <span class="tool-pill">Juzzy</span> <span class="tool-pill">Collaborative &amp; content-based filtering</span> <span class="tool-pill">Neural networks</span> <span class="tool-pill">Evolutionary algorithms</span> <span class="tool-pill soft">Presentation skills</span> <span class="tool-pill soft">Paper &amp; report writing</span></p> </div> </div> <p><a href="/research/">← Back to research</a> {: .back-link }</p> </article> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2026 Prodipta Sen Amartya. </div> </footer> <script>
   window.alFolio = {
     compatBootstrap: false
   };
