@@ -89,6 +89,10 @@ I worked across the full stack on this project, which is unusual for medical dev
 - Incorporated **Google OAuth 2.0** authentication
 - Built in **single sign-on** so the system can serve other Samsung Medison applications in future, not just this one
 
+### Connectivity
+
+- Implemented a module to support the **Wi-Fi driver** on the ultrasound machine
+
 ### Team
 
 - Mentored interns joining the team

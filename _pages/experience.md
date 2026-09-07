@@ -80,7 +80,7 @@ nav_order: 3
 <div class="experience-card" markdown="1">
 <img class="thumb" src="/assets/img/experience/5Dviewer_logo.png" alt="5D Viewer">
 <div class="card-body" markdown="1">
-### [Cardiac TEE Rendering & Optimization](/experience/cardiac-tee/)
+### [Cardiac TEE Rendering × 5D Viewer](/experience/cardiac-tee/)
 <div class="meta">Samsung R&D Institute Bangladesh · April 2026 – Present</div>
 <p class="summary">Leading UI optimization and the interaction layer for a 5D Viewer rendering live volumetric cardiac ultrasound data.</p>
 </div>
