@@ -98,8 +98,8 @@ nav_order: 3
 <div class="experience-card" markdown="1">
 <img class="thumb" src="/assets/img/experience/Sonosync_logo.png" alt="SonoSync">
 <div class="card-body" markdown="1">
-### [Cloud Solutions — Medison](/experience/cloud-solutions/)
+### [Cloud Solutions × SonoSync — Samsung Medison](/experience/cloud-solutions/)
 <div class="meta">Samsung R&D Institute Bangladesh · January 2024 – February 2025</div>
-<p class="summary">Real-time ultrasound streaming to the web, removing an ffmpeg dependency by building a custom double-buffered streaming pipeline.</p>
+<p class="summary">Real-time ultrasound streaming and remote machine control, built by replacing an ffmpeg dependency with a custom double-buffered pipeline.</p>
 </div>
 </div>
