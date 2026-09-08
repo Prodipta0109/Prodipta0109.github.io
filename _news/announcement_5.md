@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2024-06-30
+date: 2025-09-30
 inline: true
 related_posts: false
 ---
 
-Presented <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bnBpAMkAAAAJ&citation_for_view=bnBpAMkAAAAJ:u5HHmVD_uO8C" target="_blank">An Interval Creation Approach to Construct Interval Type-2 Fuzzy Sets</a> at FUZZ-IEEE 2024, part of IEEE WCCI.
+Secured 1st position in the Basic AI Exam organized by Samsung R&D Institute Bangladesh (out of 400 participants)
