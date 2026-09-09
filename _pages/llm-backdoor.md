@@ -91,6 +91,28 @@ nav: false
   font-size: 0.9em;
   opacity: 0.85;
 }
+.ongoing-divider {
+  border: none;
+  border-top: 1px dashed rgba(128,128,128,0.3);
+  margin: 40px 0 8px;
+}
+.ongoing-card {
+  background: rgba(212,166,42,0.08);
+  border: 1px solid rgba(212,166,42,0.3);
+  border-radius: 12px;
+  padding: 20px 24px;
+  position: relative;
+}
+.ongoing-card .target-tag {
+  display: inline-block;
+  background: rgba(212,166,42,0.18);
+  color: #B8860B;
+  border-radius: 8px;
+  padding: 3px 10px;
+  font-size: 0.8em;
+  font-weight: 600;
+  margin-top: 12px;
+}
 </style>
 
 <div class="res-hero" markdown="1">
@@ -157,6 +179,17 @@ One paper is currently under review at **Cycle-1, USENIX Security '27**.
 <span class="tool-pill">Python</span>
 <span class="tool-pill">PyTorch</span>
 <span class="tool-pill">Hugging Face Transformers</span>
+</div>
+</div>
+
+
+<div class="res-section" markdown="1">
+## Ongoing Research
+
+<div class="ongoing-card" markdown="1">
+An **SoK (Systemization of Knowledge)** paper is in preparation on the transferability of attack and defense methods between federated learning and split learning; examining which attacks and defenses developed for one architecture still hold when applied to the other.
+
+<span class="target-tag">Targeting IEEE S&P (Oakland) 2027</span>
 </div>
 </div>
 
