@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of cool academic projects.
+description: Selected coursework from my B.Sc. in Computer Science & Engineering, University of Dhaka (2019–2023), covering database systems, web and mobile application development.
 nav: true
 nav_order: 3
 display_categories: [academic]

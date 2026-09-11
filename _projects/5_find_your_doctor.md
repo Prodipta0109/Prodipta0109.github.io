@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Find Your Doctor
-description: An Android app for finding and scheduling appointments with doctors.
+description: An Android app for finding and scheduling appointments with doctors. <span style="display:block;margin-top:8px;font-size:0.78em;font-weight:500;letter-spacing:0.06em;text-transform:uppercase;opacity:0.55;">2022</span>
 img: assets/img/find_doctor.png
 importance: 5
 category: academic

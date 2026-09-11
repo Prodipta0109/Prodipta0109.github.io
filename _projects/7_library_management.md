@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Library Management System
-description: A normalized relational database for managing an institute's library.
+description: A normalized relational database for managing an institute's library. <span style="display:block;margin-top:8px;font-size:0.78em;font-weight:500;letter-spacing:0.06em;text-transform:uppercase;opacity:0.55;">June 2021</span>
 img: assets/img/library_db.png
 importance: 7
 category: academic

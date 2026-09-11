@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Book Your Ride
-description: An online bus ticket booking system with schedules and digital tickets.
+description: An online bus ticket booking system (android app) with schedules and digital tickets. <span style="display:block;margin-top:8px;font-size:0.78em;font-weight:500;letter-spacing:0.06em;text-transform:uppercase;opacity:0.55;">June 2022</span>
 img: assets/img/bus_booking.png
 importance: 6
 category: academic
@@ -62,7 +62,7 @@ category: academic
 
 ## Overview
 
-**Book Your Ride** is an online bus ticket booking system that digitizes the process of searching, scheduling, and purchasing intercity bus tickets.
+**Book Your Ride** is an online bus ticket booking system (android application) that digitizes the process of searching, scheduling, and purchasing intercity bus tickets.
 
 - **Ticket Booking & Scheduling** — Enables users to book bus tickets online and browse available schedules filtered by destination and travel date.
 - **Digital Ticketing** — Replaces physical tickets with digital copies, allowing users to access and present their tickets directly from the app.
