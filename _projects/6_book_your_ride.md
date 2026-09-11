@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Book Your Ride
-description: An online bus ticket booking system (android app) with schedules and digital tickets. <span style="display:block;margin-top:8px;font-size:0.78em;font-weight:500;letter-spacing:0.06em;text-transform:uppercase;opacity:0.55;">June 2022</span>
+description: An online bus ticket booking system (android app) with schedules and digital tickets. <span style="display:block;margin-top:8px;font-size:0.78em;font-weight:500;letter-spacing:0.06em;text-transform:uppercase;opacity:0.55;">2022</span>
 img: assets/img/bus_booking.png
 importance: 6
 category: academic
