@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Gardening Tukitaki
-description: Blog and marketplace for seeds and agricultural products, unified under one auth and role system. <span style="display:block;margin-top:8px;font-size:0.78em;font-weight:500;letter-spacing:0.06em;text-transform:uppercase;opacity:0.55;">2023</span>
+description: Blog and marketplace for seeds and agricultural products, unified under one auth and role system.
 img: assets/img/gardening.png
 importance: 4
 category: academic

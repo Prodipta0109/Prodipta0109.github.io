@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Book Your Ride
-description: Android bus ticketing with seat inventory kept consistent under concurrent booking requests. <span style="display:block;margin-top:8px;font-size:0.78em;font-weight:500;letter-spacing:0.06em;text-transform:uppercase;opacity:0.55;">2021</span>
+description: Android bus ticketing with seat inventory kept consistent under concurrent booking requests.
 img: assets/img/bus_booking.png
 importance: 6
 category: academic

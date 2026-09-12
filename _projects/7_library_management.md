@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Library Management System
-description: Normalized library database with referential integrity enforced through foreign key constraints. <span style="display:block;margin-top:8px;font-size:0.78em;font-weight:500;letter-spacing:0.06em;text-transform:uppercase;opacity:0.55;">2020</span>
+description: Normalized library database with referential integrity enforced through foreign key constraints.
 img: assets/img/library_db.png
 importance: 7
 category: academic
