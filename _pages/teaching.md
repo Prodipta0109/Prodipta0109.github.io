@@ -48,7 +48,7 @@ Our base paper: [Self-Adapting Language Models](https://arxiv.org/abs/2506.10943
 
 <div class="teach-item" markdown="1">
 ### Judge & Question Setter — Bangladesh Artificial Intelligence Olympiad 2026
-<div class="meta">Regional Stage · May 2026</div>
+<div class="meta">Regional Stage · June 2026</div>
 
 - Served as a judge for the regional stage of the Bangladesh Artificial Intelligence Olympiad 2026
 - Set questions for the competition, designing problems to assess participants' understanding of artificial intelligence concepts

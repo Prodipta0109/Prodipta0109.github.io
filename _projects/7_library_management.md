@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Library Management System
-description: A normalized relational database for managing an institute's library. <span style="display:block;margin-top:8px;font-size:0.78em;font-weight:500;letter-spacing:0.06em;text-transform:uppercase;opacity:0.55;">2021</span>
+description: Normalized library database with referential integrity enforced through foreign key constraints. <span style="display:block;margin-top:8px;font-size:0.78em;font-weight:500;letter-spacing:0.06em;text-transform:uppercase;opacity:0.55;">2020</span>
 img: assets/img/library_db.png
 importance: 7
 category: academic
@@ -64,15 +64,16 @@ category: academic
 
 **Library Management System** is a normalized relational database designed to support the day-to-day management and operations of an institute's library.
 
-- **Database Design** — Structured the schema using normalization principles to eliminate redundancy and maintain data integrity across library records.
-- **Views for Streamlined Operations** — Created database views to support smooth, efficient execution of common library management tasks.
+- **Database design** — Structured the schema using normalization principles to eliminate redundancy across catalog and circulation records.
+- **Referential integrity** — Enforced valid relationships across circulation records through foreign key constraints, so loans cannot reference nonexistent members or copies.
+- **Views for common operations** — Created views abstracting the recurring queries behind routine library tasks.
 
-**My Contributions:** I designed the database following normalization principles and created the views needed for its smooth operation.
+**My contributions:** I designed the normalized schema, defined the foreign key constraints governing circulation records, and created the operational views.
 
 <div class="links-list" markdown="1">
 ### 🔗 Important Links
 
-- [Project Report](https://drive.google.com/drive/folders/1l7a0yFPlR-ca43s-mtg9qwDV1SdAF9qb)
+- [Project Report](https://drive.google.com/file/d/1bTa6VOWWkC_5bIoF70mykPWHZsiMt_8O/view)
 </div>
 
 ## Skills
@@ -84,6 +85,6 @@ category: academic
   </tr>
   <tr>
     <th>Soft</th>
-    <td>Management system analysis, project planning</td>
+    <td>Management system analysis, project planning, schema design and query development</td>
   </tr>
 </table>

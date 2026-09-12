@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Book Your Ride
-description: An online bus ticket booking system (android app) with schedules and digital tickets. <span style="display:block;margin-top:8px;font-size:0.78em;font-weight:500;letter-spacing:0.06em;text-transform:uppercase;opacity:0.55;">2022</span>
+description: Android bus ticketing with seat inventory kept consistent under concurrent booking requests. <span style="display:block;margin-top:8px;font-size:0.78em;font-weight:500;letter-spacing:0.06em;text-transform:uppercase;opacity:0.55;">2021</span>
 img: assets/img/bus_booking.png
 importance: 6
 category: academic
@@ -62,13 +62,13 @@ category: academic
 
 ## Overview
 
-**Book Your Ride** is an online bus ticket booking system (android application) that digitizes the process of searching, scheduling, and purchasing intercity bus tickets.
+**Book Your Ride** is an Android application that digitizes searching, scheduling, and purchasing intercity bus tickets.
 
-- **Ticket Booking & Scheduling** — Enables users to book bus tickets online and browse available schedules filtered by destination and travel date.
-- **Digital Ticketing** — Replaces physical tickets with digital copies, allowing users to access and present their tickets directly from the app.
-- **Backend Architecture** — Built the backend in close coordination with the database and frontend UI, ensuring smooth data flow across the system.
+- **Concurrent seat inventory** — Seat state is held in a shared inventory model, with simultaneous reservations for the same seat resolved through Firebase transactions so no seat can be double-allocated.
+- **Ticket booking and scheduling** — Users browse available schedules filtered by destination and travel date, then book against live seat availability.
+- **Digital ticketing** — Digital ticket copies replace physical counter sales, accessible and presentable from the app.
 
-**My Contributions:** I built the backend architecture, synchronizing it with both the database and the frontend UI to deliver a seamless booking experience.
+**My contributions:** I designed the backend architecture and the seat inventory model, and handled its synchronization with the database and frontend.
 
 <div class="links-list" markdown="1">
 ### 🔗 Important Links
