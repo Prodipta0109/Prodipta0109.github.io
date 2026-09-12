@@ -2,7 +2,7 @@
 layout: page
 permalink: /research/
 title: research
-description: Security of learning systems, explainable fuzzy inference, and medical imaging.
+description: Security of learning systems and software systems, and explainable fuzzy inference.
 nav: true
 nav_order: 2
 ---
@@ -84,9 +84,18 @@ nav_order: 2
 </div>
 
 <div class="research-card" markdown="1">
+<img class="thumb" src="/assets/img/research/KSU_logo.png" alt="Kennesaw State University logo">
+<div class="card-body" markdown="1">
+### [Security Analysis of Federated Learning and Split Learning](/research/fl-sl-security/)
+<div class="meta">Kennesaw State University, USA · Supervisor: <a href="https://honghuixuhenry.github.io/index.html">Dr. Honghui Xu</a> · July 2026 – Present</div>
+<p class="summary">Systematizing whether attacks and defenses established for federated learning transfer to split learning, and where the architectural split invalidates the assumptions each relies on (<em>SoK manuscript in preparation for IEEE S&amp;P 2027</em>).</p>
+</div>
+</div>
+
+<div class="research-card" markdown="1">
 <img class="thumb" src="/assets/img/research/Samsung_logo.png" alt="Samsung R&D Institute Bangladesh logo">
 <div class="card-body" markdown="1">
-### [Improving security of the system integrated in ultrasound devices](/research/ultrasound-security/)
+### [Improving Security of Systems Integrated in Ultrasound Devices](/research/ultrasound-security/)
 <div class="meta">Samsung R&D Institute Bangladesh · August 2026 – Present</div>
 <p class="summary">Developing a contract-based method to automatically scope security re-verification to only the modules an update could affect, instead of retesting the entire ultrasound software stack.</p>
 </div>
@@ -104,7 +113,7 @@ nav_order: 2
 <div class="research-card" markdown="1">
 <img class="thumb" src="/assets/img/research/DU_logo.png" alt="University of Dhaka logo">
 <div class="card-body" markdown="1">
-### [Interval Type-2 Fuzzy Sets: Behaviour and Performance](/research/interval-type2-fuzzy/)
+### [Interval Type-2 Fuzzy Sets: Behavior and Performance](/research/interval-type2-fuzzy/)
 <div class="meta">University of Dhaka · March 2023 – January 2024</div>
 <p class="summary">Designed the Interval Creation Approach (ICA), a method for constructing interval type-2 fuzzy sets from type-1 fuzzy set, leading to a first-author paper at FUZZ-IEEE 2024, as a part of IEEE WCCI 2024.</p>
 </div>

@@ -182,15 +182,4 @@ One paper is currently under review at **Cycle-1, USENIX Security '27**.
 </div>
 </div>
 
-
-<div class="res-section" markdown="1">
-## Ongoing Research
-
-<div class="ongoing-card" markdown="1">
-An **SoK (Systemization of Knowledge)** paper is in preparation on the transferability of attack and defense methods between federated learning and split learning; examining which attacks and defenses developed for one architecture still hold when applied to the other.
-
-<span class="target-tag">Targeting IEEE S&P (Oakland) 2027</span>
-</div>
-</div>
-
 <a class="back-link" href="/research/">← Back to research</a>
