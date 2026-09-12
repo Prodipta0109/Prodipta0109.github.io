@@ -12,7 +12,7 @@ description: >
   Senior Software Engineer at Samsung R&D Institute Bangladesh, working on real-time
   rendering for medical ultrasound. Researching security in federated and split
   learning, and backdoor attacks on LLM reasoning.
-keywords: rendering, directx, ai security, federated learning, split learning, llm reasoning
+keywords: ai for security, software security, federated learning, split learning, llm reasoning, trustworthy ai, fuzzy logic
 icon: 🧠
 apple_touch_icon: # image name in /assets/img/ (or a rooted path / absolute URL) used for iOS home-screen bookmarks; needs a real 180x180 PNG, since Safari ignores the emoji favicon above. Left empty, iOS falls back to a screenshot of the page.
 
