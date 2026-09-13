@@ -86,7 +86,7 @@ h2:has(+ .publications) {
 <div class="intro-box" markdown="1">
 ## <span class="wave">👋</span> Hello there, I'm Prodipta!
 - 💼 I'm a Senior Software Engineer at [*Samsung R&D Institute Bangladesh*](https://research.samsung.com/srbd), currently leading **UI architecture design** and **real-time rendering** for medical ultrasound at [*Samsung Medison*](https://samsungmedison.com/).
-- 🎓 I hold a **B.Sc. in Computer Science & Engineering** from *University of Dhaka*, graduating in 2023.
+- 🎓 I hold a **B.Sc.(Hons.) in Computer Science & Engineering** from *University of Dhaka*, graduating in 2023.
 - 🔬 My research focuses on **AI for Security**, understanding how machine learning systems can be compromised (for example, through attacks on federated and split learning, or on LLM reasoning) and designing defenses that hold up against them.
 - 🤖 I'm also curious about the foundations of **Generative AI and Deep Learning** and the risks tied to their real-world adoption, which has increasingly pulled me toward a question I find just as pressing:
   - **Software system vulnerabilities** — as software development itself leans on AI, through LLM-assisted coding and "vibe coding," what new vulnerabilities does that introduce, and how do we detect and reason about them (memory safety, supply chain security, LLM-assisted vulnerability detection)?
