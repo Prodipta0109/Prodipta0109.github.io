@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: publications
-description: description: Peer-reviewed papers and working papers.
+description: Peer-reviewed papers and working papers.
 nav: true
 nav_order: 2
 ---
