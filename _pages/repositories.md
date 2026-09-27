@@ -72,6 +72,11 @@ nav_order: 4
     <img class="only-dark" src="https://github-stats-extended.vercel.app/api/pin/?username=Prodipta0109&repo=Basic-Split-Learning-Architecture-for-SafeSplit&theme=dark&show_owner=true&description_lines_count=2&v={{ site.time | date: '%s' }}" alt="Basic Split Learning Architecture for SafeSplit">
     <img class="only-light" src="https://github-stats-extended.vercel.app/api/pin/?username=Prodipta0109&repo=Basic-Split-Learning-Architecture-for-SafeSplit&theme=default&show_owner=true&description_lines_count=2&v={{ site.time | date: '%s' }}" alt="Basic Split Learning Architecture for SafeSplit">
   </a>
+
+  <a class="repo-card" href="https://github.com/Prodipta0109/NeuroSym-Fuzz" target="_blank">
+    <img class="only-dark" src="https://github-stats-extended.vercel.app/api/pin/?username=Prodipta0109&repo=NeuroSym-Fuzz&theme=dark&show_owner=true&description_lines_count=2&v={{ site.time | date: '%s' }}" alt="NeuroSym-Fuzz">
+    <img class="only-light" src="https://github-stats-extended.vercel.app/api/pin/?username=Prodipta0109&repo=NeuroSym-Fuzz&theme=default&show_owner=true&description_lines_count=2&v={{ site.time | date: '%s' }}" alt="NeuroSym-Fuzz">
+  </a>
 </div>
 
 <div class="repo-heading">Collaborative</div>
