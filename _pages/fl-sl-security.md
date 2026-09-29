@@ -94,7 +94,7 @@ nav: false
 </style>
 
 <div class="res-hero" markdown="1">
-**Kennesaw State University, USA** · Supervisor: Dr. Honghui Xu · *July 2026 – Present*
+**University of Maryland - Baltimore County, USA** · Supervisor: Dr. Md Tariqul Islam · *January 2026 – Present*
 <div class="res-status-badge">In Preparation — IEEE S&P 2027</div>
 </div>
 

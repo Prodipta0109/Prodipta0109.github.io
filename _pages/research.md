@@ -87,7 +87,7 @@ nav_order: 2
 <img class="thumb" src="/assets/img/research/KSU_logo.png" alt="Kennesaw State University logo">
 <div class="card-body" markdown="1">
 ### [Security Analysis of Federated Learning and Split Learning](/research/fl-sl-security/)
-<div class="meta">Kennesaw State University, USA · Supervisor: <a href="https://honghuixuhenry.github.io/index.html">Dr. Honghui Xu</a> · July 2026 – Present</div>
+<div class="meta">University of Maryland - Baltimore County, USA · Supervisor: <a href="https://paveltariq.com/">Dr. Md Tariqul Islam</a> · January 2026 – Present</div>
 <p class="summary">Systematizing whether attacks and defenses established for federated learning transfer to split learning, and where the architectural split invalidates the assumptions each relies on (<em>SoK manuscript in preparation for IEEE S&amp;P 2027</em>).</p>
 </div>
 </div>
