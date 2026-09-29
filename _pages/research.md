@@ -84,7 +84,7 @@ nav_order: 2
 </div>
 
 <div class="research-card" markdown="1">
-<img class="thumb" src="/assets/img/research/KSU_logo.png" alt="Kennesaw State University logo">
+<img class="thumb" src="/assets/img/research/UMBC_logo.png" alt="University of Maryland - Baltimore County logo">
 <div class="card-body" markdown="1">
 ### [Security Analysis of Federated Learning and Split Learning](/research/fl-sl-security/)
 <div class="meta">University of Maryland - Baltimore County, USA · Supervisor: <a href="https://paveltariq.com/">Dr. Md Tariqul Islam</a> · January 2026 – Present</div>
