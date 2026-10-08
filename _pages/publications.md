@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /publications/
-title: publications
-description: Peer-reviewed papers and working papers.
+title: publications and technical reports
+description: Peer-reviewed papers, working papers and technical reports.
 nav: true
 nav_order: 2
 ---
