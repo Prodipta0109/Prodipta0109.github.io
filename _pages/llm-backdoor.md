@@ -117,7 +117,6 @@ nav: false
 
 <div class="res-hero" markdown="1">
 **Kennesaw State University, USA** · Supervisor: Dr. Honghui Xu · *July 2026 – Present*
-<div class="res-status-badge">Under Review — USENIX Security '27</div>
 </div>
 
 <div class="res-section" markdown="1">
@@ -169,7 +168,7 @@ Helped organize the paper's structure and contributed to writing.
 <div class="res-section" markdown="1">
 ## Status
 
-One paper is currently under review at **Cycle-1, USENIX Security '27**.
+One paper is in preparation.
 </div>
 
 <div class="res-section" markdown="1">

@@ -79,7 +79,7 @@ nav_order: 2
 <div class="card-body" markdown="1">
 ### [Backdoor Attacks in Large Language Model Reasoning](/research/llm-backdoor/)
 <div class="meta">Kennesaw State University, USA · Supervisor: <a href="https://honghuixuhenry.github.io/index.html">Dr. Honghui Xu</a> · July 2026 – Present</div>
-<p class="summary">Investigating how the reasoning process of large language models can be compromised, combining chain-of-thought analysis with trigger-injection techniques (<em>one paper is currently under review at Cycle-1, USENIX Security '27</em>).</p>
+<p class="summary">Investigating how the reasoning process of large language models can be compromised, combining chain-of-thought analysis with trigger-injection techniques.</p>
 </div>
 </div>
 
