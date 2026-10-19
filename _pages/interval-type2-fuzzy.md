@@ -94,7 +94,7 @@ nav: false
 </style>
 
 <div class="res-hero" markdown="1">
-**University of Dhaka** · *March 2023 – January 2024*
+**University of Dhaka** · Supervisor: Dr. Shaily Kabir (LUCID Lab (Lab for Uncertainty in Data and Decision Making), University of Nottingham) · *March 2023 – January 2024*
 <div class="res-status-badge">Published — FUZZ-IEEE 2024</div>
 </div>
 

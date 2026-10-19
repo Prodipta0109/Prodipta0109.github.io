@@ -101,20 +101,20 @@ nav_order: 2
 </div>
 </div>
 
-<div class="research-card" markdown="1">
+<!-- <div class="research-card" markdown="1">
 <img class="thumb" src="/assets/img/research/UoN.png" alt="University of Nottingham logo">
 <div class="card-body" markdown="1">
 ### [Sensitivity Analysis with Fuzzy Sets](/research/fuzzy-sensitivity/)
 <div class="meta">LUCID Lab, University of Nottingham, UK · Supervisor: <a href="https://scholar.google.com/citations?user=9pixW4wAAAAJ&hl=en">Dr. Shaily Kabir</a> · October 2024 – March 2025</div>
 <p class="summary">Identifying which input variables and fuzzy rules determine the robustness and reliability of a fuzzy inference system as noise in the dataset of a system increases.</p>
 </div>
-</div>
+</div> -->
 
 <div class="research-card" markdown="1">
 <img class="thumb" src="/assets/img/research/DU_logo.png" alt="University of Dhaka logo">
 <div class="card-body" markdown="1">
 ### [Interval Type-2 Fuzzy Sets: Behavior and Performance](/research/interval-type2-fuzzy/)
-<div class="meta">University of Dhaka · March 2023 – January 2024</div>
+<div class="meta">University of Dhaka · Supervisor: <a href="https://scholar.google.com/citations?user=9pixW4wAAAAJ&hl=en">Dr. Shaily Kabir</a> · March 2023 – January 2024</div>
 <p class="summary">Designed the Interval Creation Approach (ICA), a method for constructing interval type-2 fuzzy sets from type-1 fuzzy set, leading to a first-author paper at FUZZ-IEEE 2024, as a part of IEEE WCCI 2024.</p>
 </div>
 </div>
