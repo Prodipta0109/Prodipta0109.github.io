@@ -87,7 +87,7 @@ h2:has(+ .publications) {
 ## <span class="wave">👋</span> Hello there, I'm Prodipta!
 - 💼 I'm a Senior Software Engineer at [*Samsung R&D Institute Bangladesh*](https://research.samsung.com/srbd), currently leading **UI architecture design** and **real-time rendering** for medical ultrasound at [*Samsung Medison*](https://samsungmedison.com/).
 - 🎓 I hold a **B.Sc.(Hons.) in Computer Science & Engineering** from *University of Dhaka*, graduating in 2023.
-- 🔬 My research focuses on **AI for Security**, understanding how machine learning systems can be compromised (for example, through attacks on federated and split learning, or on LLM reasoning) and designing defenses that hold up against them.
+- 🔬 My research focuses on **AI for Security**, understanding how machine learning systems can be compromised and designing defenses that hold up against them.
 - 🤖 I'm also interested in vulnerabilities introduced by AI-generated code and in using LLMs to detect them. I'm open to adjacent areas too, such as the security of wireless systems, user interfaces, and human-AI interaction.
 </div>
 </div>
